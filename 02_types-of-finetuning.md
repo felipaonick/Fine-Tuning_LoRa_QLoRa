@@ -68,7 +68,7 @@ Let’s begin by exploring partial fine-tuning in detail.
 ### Partial fine-tuning
 A pretrained model learns both general and task-specific details in different layers of the model. Partial fine-tuning, also known as selective fine-tuning, works by freezing the important layers, the layers that have learned general details and patterns of the data, and training only the output layers, which have task-specific details to train the model output on specific tasks. This approach helps the model preserve more of the pretraining knowledge and adapt to task-specific data with minimum training of the model.
 
-![alt text](images/partial-finetuning.png.png)
+![alt text](images/partial-finetuning.png)
 
 
 There are many methods to implement partial fine-tuning, including BitFit (Bias-terms Fine-tuning), LT-SFT (Lottery Ticket Sparse Fine-Tuning), Diff Pruning, Threshold-Mask, etc.
