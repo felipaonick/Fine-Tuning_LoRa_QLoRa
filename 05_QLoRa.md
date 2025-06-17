@@ -4,7 +4,7 @@ Learn about the components and working of the Quantized Low-Rank Adaptation (QLo
 
 Quantized Low-Rank Adaptation (QLoRA), as the name suggests, combines the two most widely used methods of fine-tuning, i.e., LoRA and quantization. Where LoRA uses the low-rank matrices to reduce the number of trainable parameters, QLoRA extends it by further reducing the model size by quantizing its weights.
 
-![alt text](qlora.png)
+![alt text](images/qlora.png)
 
 # Components of QLoRA
 
